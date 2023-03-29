@@ -27,7 +27,6 @@
   margin: 0 auto;
   height: 80%;
   width: 100% !important;
-  margin-right: -80px;
 }
 
 a {
@@ -122,7 +121,7 @@ a:active {
     width: 143px;
   }
 }
-/* @media (max-width: 350px) {
+@media (max-width: 350px) {
   a {
     padding: 1px;
     width: 50%;
@@ -142,7 +141,7 @@ a:active {
   * {
     width: 100%;
   }
-} */
+}
 
 @media (max-width: 209px) {
   a {
