@@ -67,7 +67,7 @@ a:active {
   max-width: 200px;
   width: 60px;
   height: 30px;
-  transform: translateX(18rem);
+  transform: translateX(20rem);
   animation: slideIn 1s forwards;
   animation-delay: 0.5s;
 }
@@ -114,11 +114,11 @@ a:active {
   }
   .headerTitle {
     width: 90% !important;
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
     margin-left: 10px !important;
   }
   .headerImg {
-    width: 37% !important;
+    width: 25% !important;
   }
 
   a {
