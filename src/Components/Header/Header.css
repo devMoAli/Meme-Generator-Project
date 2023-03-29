@@ -109,10 +109,10 @@ a:active {
     width: 100%;
   }
   .container {
-    width: 90% !important;
+    max-width: 90% !important;
   }
   .headerTitle {
-    width: 40% !important;
+    width: 90% !important;
   }
   .headerImg {
     width: 37% !important;
