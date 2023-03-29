@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+##### React-Meme-Generator
+![React-Meme-Generator](memeGenerator.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
