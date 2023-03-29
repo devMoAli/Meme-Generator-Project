@@ -13,7 +13,7 @@
   padding: 3rem 1rem;
   align-items: center;
   justify-content: center;
-  max-width: 100vw !important;
+  width: 100%;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -26,7 +26,7 @@
   justify-content: center;
   margin: 0 auto;
   height: 80%;
-  width: 100% !important;
+  width: 90%;
 }
 
 a {
@@ -100,22 +100,22 @@ a:active {
 
 @media (max-width: 515px) {
   * {
-    align-items: center !important;
+    align-items: center;
   }
 
   header {
     max-width: 100vw !important;
     display: block !important;
-    width: 100% !important;
+    width: 100%;
   }
   .container {
-    max-width: 100% !important;
+    max-width: 90% !important;
   }
   .headerTitle {
     width: 70% !important;
   }
   .headerImg {
-    width: 40% !important;
+    width: 37% !important;
   }
 
   a {
