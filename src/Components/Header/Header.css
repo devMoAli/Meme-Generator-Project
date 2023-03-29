@@ -98,6 +98,38 @@ a:active {
   text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
+
+
+@media (max-width: 515px) {
+*{
+  align-items: center;
+  width: 100%;
+}
+
+header {
+ 
+  display: block !important;
+  width: 100% !important;
+  width: 100vw!important;
+}
+.container {
+  width: 100% !important;
+}
+.headerTitle {
+  width: 70% !important;
+}
+.headerImg {
+  width: 40% !important;
+}
+
+a{
+  width: 100%;
+margin-top: 40px !important;
+align-items: center !important;
+justify-content: center !important;
+}
+}
+/* 
 @media (min-width: 1000px) {
   .headerContainer {
     display: flex;
@@ -121,7 +153,7 @@ a:active {
     width: 143px;
   }
 }
-@media only screen and  (max-width: 320px) {
+@media only screen and  (max-width: 420px) {
   a {
     padding: 1px;
     width: 50%;
@@ -162,4 +194,4 @@ a:active {
   * {
     width: 100%;
   }
-}
+} */

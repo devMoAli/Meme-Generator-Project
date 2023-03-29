@@ -129,13 +129,12 @@ h3 {
 
 @media (max-width: 515px) {
   .modal > * {
-    width: 90%;
+    position: relative !important;
+    display: flex !important;
+    width: 90% !important;
+    align-items: center !important;
+  margin: 0 auto !important;;
   }
+
 }
-@media only screen and  (max-width: 320px) {
-  * {
-    width: 100% !important;
-    width: 100vw !important;
-    height: 100vh;
-  }
-}
+
