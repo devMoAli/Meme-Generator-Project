@@ -101,6 +101,7 @@ a:active {
 @media (max-width: 515px) {
   * {
     align-items: center !important;
+    width: 100vw !important;
   }
 
   header {
