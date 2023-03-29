@@ -113,6 +113,7 @@ a:active {
   }
   .headerTitle {
     width: 90% !important;
+    font-size: 1.5rem !important;
     margin-left: 10px !important;
   }
   .headerImg {
