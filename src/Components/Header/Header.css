@@ -67,7 +67,7 @@ a:active {
   max-width: 200px;
   width: 60px;
   height: 30px;
-  transform: translateX(20rem);
+  transform: translateX(18rem);
   animation: slideIn 1s forwards;
   animation-delay: 0.5s;
 }
