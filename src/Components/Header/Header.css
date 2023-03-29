@@ -121,7 +121,7 @@ a:active {
     width: 143px;
   }
 }
-@media only screen and  (max-width: 350px) {
+@media only screen and  (max-width: 320px) {
   a {
     padding: 1px;
     width: 50%;
@@ -136,9 +136,9 @@ a:active {
     width: 90%;
   }
   .headerContainer {
-    width: 100%;
-    width: 100vw;
-    margin: 0 auto;
+    width: 100% !important;
+    width: 100vw !important;
+    margin: 0 auto !important;
   }
   * {
     width: 100%;
