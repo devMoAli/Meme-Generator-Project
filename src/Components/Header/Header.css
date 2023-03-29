@@ -62,34 +62,35 @@ a:active {
   position: relative;
   max-height: 150px;
   max-width: 100%;
+  min-height: 50px;
   height: auto;
   max-width: 200px;
-  width: 120px;
-  height: 90px;
-  transform: translateX(15rem);
+  width: 60px;
+  height: 30px;
+  transform: translateX(18rem);
   animation: slideIn 1s forwards;
   animation-delay: 0.5s;
 }
-.headerImg ::before,
+.headerImg::before,
 .headerImg::after {
-  transform: scaleX(0);
   transition: all 0.5s;
-  transform: scaleX(1);
 }
-.headerImg ::before {
+.headerImg::before {
   bottom: 0;
   transform-origin: right;
 }
-.headerImg ::after {
+.headerImg::after {
   bottom: 0;
+  transform: scale(2, 2);
   transform-origin: left;
 }
 @keyframes slideIn {
   from {
-    /* transform: translateX(50%); */
+    /* transform: translateX(100%); */
   }
   to {
-    transform: translateX(10%);
+    transform: scale(2, 2);
+    transform: translateX(5%);
   }
 }
 .headerTitle {
